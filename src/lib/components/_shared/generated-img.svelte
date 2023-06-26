@@ -22,17 +22,17 @@
 			md:rounded-t-lg
 			"
 		/>
-		<p class="relative z-10 text-sm text-[#C7C6CA] font-medium">Diana</p>
+		<p class="relative z-10 text-sm text-sys-on-surface font-medium">Diana</p>
 		<div class="relative z-10 flex justify-between items-center">
 			<div class="flex gap-2">
 				<div class="w-6 h-6 bg-red-100 overflow-hidden rounded-full">
 					<img src={generated5} width="24" height="24" alt="" />
 				</div>
-				<p class="text-sm text-[#C7C6CA] font-medium">John Doe</p>
+				<p class="text-sm text-sys-on-surface font-medium">John Doe</p>
 			</div>
 			<div class="flex gap-1">
 				<Comments class="w-4 h-4" />
-				<span class="text-[#C7C6CA] text-xs font-medium">3.3k</span>
+				<span class="text-sys-on-surface text-xs font-medium">3.3k</span>
 			</div>
 		</div>
 	</div>

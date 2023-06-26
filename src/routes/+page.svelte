@@ -18,18 +18,18 @@
 <div class="px-4">
 	<!-- search bar and text -->
 	<div class="pt-8 pb-3 max-w-5xl mx-auto flex flex-col gap-4">
-		<h2 class="hidden md:block text-center text-4xl font-bold text-[#E5DEFF] font-serif">
+		<h2 class="hidden md:block text-center text-4xl font-bold text-sys-on-primary font-serif">
 			Who is in your heart?
 		</h2>
 		<div class="relative">
 			<span class="absolute inset-y-0 left-0 pl-3 flex items-center">
-				<Search class="w-5 h-5 text-[#E5DEFF]" />
+				<Search class="w-5 h-5 text-sys-on-surface" />
 			</span>
 			<input
 				type="text"
-				class="pl-10 pr-4 py-2 w-full rounded-md border border-[#44474F]
-				 bg-[#23262F] text-[#E5DEFF] placeholder-[#E5DEFF] placeholder-opacity-50
-				 focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
+				class="pl-10 pr-4 py-2 w-full rounded-md border border-sys-outline-variant
+				 bg-sys-surface-variant text-sys-on-surface-variant placeholder-sys-on-surface-variant placeholder-opacity-50
+				 focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none
 				 text-sm
 				 "
 				placeholder="Describe your perfect match..."
@@ -96,10 +96,10 @@
 		<div class="pt-8 pb-6 flex justify-center w-full">
 			<button
 				class=" rounded-lg flex gap-2 justify-center items-center
- px-3 py-[6px] text-[#C7C6CA]
- focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
+ px-3 py-[6px] text-sys-on-surface
+ focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none
 
- border border-[#44474F]
+ border border-sys-outline-variant
  bg-[#C9BFFF0D]
  transition-all duration-150 ease-linear hover:scale-[0.95]
  "

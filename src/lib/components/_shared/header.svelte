@@ -12,17 +12,17 @@
 			<img src={logo} alt="logo" class="max-w-[42px] h-8 aspect-[calc(42/32)]" />
 			<span class="hidden md:inline text-2xl font-bold text-white align-middle">ArtHeart</span>
 		</a>
-		<div class="hidden md:block w-[1px] self-stretch bg-[#44474F]" />
+		<div class="hidden md:block w-[1px] self-stretch bg-sys-outline-variant" />
 	</div>
 	<div class="flex gap-4 items-center">
 		<a href="https://discord.com" target="_blank" class="p-1 border border-[#8E9099] rounded-md">
 			<Discord class="w-6 h-6" />
 		</a>
 		<button
-			class="bg-[#5D3FE0] rounded-md px-4 md:px-6 py-[6px] md:py-[10px] text-white transition-all duration-150 ease-linear hover:scale-[0.95]"
+			class="bg-primary rounded-md px-4 md:px-6 py-[6px] md:py-[10px] text-white transition-all duration-150 ease-linear hover:scale-[0.95]"
 		>
 			Get Started
 		</button>
 	</div>
 </div>
-<div class="w-full h-[1px] bg-[#44474F]" />
+<div class="w-full h-[1px] bg-sys-outline-variant" />
