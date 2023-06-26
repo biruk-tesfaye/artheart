@@ -25,10 +25,10 @@
 			<div class="flex flex-col md:flex-row gap-3 w-full">
 				<input
 					type="text"
-					class="px-3 py-2 w-full md:max-w-[200px] rounded-md border border-[#44474F]
+					class=" px-3 py-2 w-full md:max-w-[200px] rounded-md border border-[#44474F]
 				 bg-[#23262F] text-[#E5DEFF] placeholder-[#E5DEFF] placeholder-opacity-50
 				 focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
-				 text-sm
+				 text-sm min-w-[225px]
 				 "
 					placeholder="Email"
 				/>
@@ -41,16 +41,19 @@
 		</div>
 	</div>
 
-	<div class="w-full h-[1px] bg-[#44474F]" />
-	<div
-		class="flex flex-col-reverse gap-4 md:gap-0 md:flex-row justify-center md:justify-between w-full"
-	>
-		<p class="text-[#C7C6CA] text-base font-medium text-center">
-			2023 Copyright ©ArtHeart.ai. All rights reserved
-		</p>
-		<div class="flex gap-6 justify-center">
-			<a href="https://twitter.com" target="_blank"> <Twitter class="w-6 h-6" /></a>
-			<a href="https://discord.com" target="_blank"><Discord class="w-6 h-6" /></a>
+	<div class="w-full flex flex-col gap-8">
+		<div class="w-full h-[1px] bg-[#44474F]" />
+
+		<div
+			class="flex flex-col-reverse gap-4 md:gap-0 md:flex-row justify-center md:justify-between w-full"
+		>
+			<p class="text-[#C7C6CA] text-base font-medium text-center">
+				2023 Copyright ©ArtHeart.ai. All rights reserved
+			</p>
+			<div class="flex gap-6 justify-center">
+				<a href="https://twitter.com" target="_blank"> <Twitter class="w-6 h-6" /></a>
+				<a href="https://discord.com" target="_blank"><Discord class="w-6 h-6" /></a>
+			</div>
 		</div>
 	</div>
 </div>
