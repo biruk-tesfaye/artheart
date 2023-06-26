@@ -30,7 +30,6 @@
 			<span>Artwork</span>
 		</button>
 	</div>
-	<label id="listbox-label" class="sr-only"> Change published status </label>
 	<div class="relative block md:hidden">
 		<div class="inline-flex shadow-sm rounded-md divide-x divide-indigo-600">
 			<div class="relative z-0 inline-flex shadow-sm rounded-md divide-x divide-indigo-600">

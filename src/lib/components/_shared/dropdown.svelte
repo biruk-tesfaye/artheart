@@ -5,9 +5,7 @@
 	let isOpen = false;
 </script>
 
-<!-- This example requires Tailwind CSS v2.0+ -->
 <div>
-	<label id="listbox-label" class="sr-only"> Change published status </label>
 	<div class="relative">
 		<div class="inline-flex shadow-sm rounded-md divide-x divide-indigo-600">
 			<div class="relative z-0 inline-flex shadow-sm rounded-md divide-x divide-indigo-600">
@@ -37,14 +35,12 @@
 			<li
 				class="text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
 				id="listbox-option-0"
-				role="option"
 			>
 				<div class="flex flex-col text-[#C7C6CA]">Test item</div>
 			</li>
 			<li
 				class="text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
 				id="listbox-option-0"
-				role="option"
 			>
 				<div class="flex flex-col text-[#C7C6CA]">Test item</div>
 			</li>
