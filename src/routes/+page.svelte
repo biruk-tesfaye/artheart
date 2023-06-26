@@ -12,6 +12,9 @@
 	import generated3 from '$lib/assets/images/generated/3.png';
 	import generated4 from '$lib/assets/images/generated/4.png';
 	import generated5 from '$lib/assets/images/generated/5.png';
+
+	import Dropdown from '$lib/components/_shared/dropdown.svelte';
+	import CheckBoxDropdown from '$lib/components/_shared/check-box-dropdown.svelte';
 </script>
 
 <svelte:head>
@@ -41,15 +44,9 @@
 	<!-- search bar filters and categories -->
 	<div class="max-w-5xl mx-auto flex flex-col gap-3">
 		<div class="flex self-stretch justify-between items-start">
-			<button
-				class="bg-[#C9BFFF24] rounded-md flex md:hidden gap-2 justify-center
-			items-center px-4 md:px-6 py-[6px] md:py-[10px] text-[#C7C6CA]
-			focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
-			"
-			>
-				<UserHeart />
-				<span>Characters</span>
-			</button>
+			<div class="block md:hidden">
+				<CheckBoxDropdown />
+			</div>
 			<div
 				class="hidden md:flex rounded-lg p-1 gap-1 justify-center items-center border border-[#44474F]"
 			>
@@ -72,19 +69,24 @@
 					<span>Artwork</span>
 				</button>
 			</div>
+
 			<div>
-				<button
-					class="bg-[#23262F] rounded-md flex gap-2 justify-center items-center
-					px-4 md:px-6 py-[6px] md:py-[10px] text-[#C7C6CA]
-					focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
-					"
-				>
-					<!-- <div class="flex"> -->
-					<TrendingUpArrow />
-					<span class="w-24 text-left">Trending</span>
-					<!-- </div> -->
-					<ArrowDown />
-				</button>
+				<Dropdown>
+					<li
+						class="text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
+						id="listbox-option-0"
+						role="option"
+					>
+						<div class="flex flex-col text-[#C7C6CA]">Test item</div>
+					</li>
+					<li
+						class="text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
+						id="listbox-option-0"
+						role="option"
+					>
+						<div class="flex flex-col text-[#C7C6CA]">Test item</div>
+					</li>
+				</Dropdown>
 			</div>
 		</div>
 		<div class="flex gap-2 snap-x overflow-x-scroll container-snap">
