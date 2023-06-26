@@ -18,7 +18,9 @@
     "
 	>
 		<div
-			class="absolute top-0 left-0 w-full h-full z-0 md:bg-[#1B1B1F] bg-[#1B1B1FCC] backdrop-blur-sm"
+			class="absolute top-0 left-0 w-full h-full z-0 md:bg-[#1B1B1F] bg-[#1B1B1FCC] backdrop-blur-sm
+			md:rounded-lg rounded-b-none
+			"
 		/>
 		<p class="relative z-10 text-sm text-[#C7C6CA] font-medium">Diana</p>
 		<div class="relative z-10 flex justify-between items-center">
