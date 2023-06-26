@@ -70,7 +70,6 @@
 				}}
 				class="w-full text-left text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
 				id="listbox-option-0"
-				role="option"
 			>
 				<div class="flex flex-col text-[#C7C6CA]">Characters</div>
 			</button>
@@ -82,7 +81,6 @@
 				}}
 				class="text-gray-900 w-full text-left cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
 				id="listbox-option-0"
-				role="option"
 			>
 				<div class="flex flex-col text-[#C7C6CA]">Artwork</div>
 			</button>
