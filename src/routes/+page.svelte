@@ -14,6 +14,9 @@
 	import generated5 from '$lib/assets/images/generated/5.png';
 </script>
 
+<svelte:head>
+	<title>ArtHeart | Ai Generator</title>
+</svelte:head>
 <div class="px-4">
 	<!-- search bar and text -->
 	<div class="pt-8 pb-3 max-w-5xl mx-auto flex flex-col gap-4">
