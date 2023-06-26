@@ -33,7 +33,7 @@
 					placeholder="Email"
 				/>
 				<button
-					class="flex-shrink-0 bg-[#5D3FE0] rounded-md px-4 md:px-6 py-[6px] md:py-[10px] text-white"
+					class="flex-shrink-0 bg-[#5D3FE0] rounded-md px-4 md:px-6 py-[6px] md:py-[10px] text-white transition-all duration-150 ease-linear hover:scale-[0.95]"
 				>
 					Subscribe
 				</button>

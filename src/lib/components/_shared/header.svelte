@@ -19,7 +19,9 @@
 			<!-- <img src={discordLogo} alt="discord" class="w-6 h-6" /> -->
 			<Discord class="w-6 h-6" />
 		</a>
-		<button class="bg-[#5D3FE0] rounded-md px-4 md:px-6 py-[6px] md:py-[10px] text-white">
+		<button
+			class="bg-[#5D3FE0] rounded-md px-4 md:px-6 py-[6px] md:py-[10px] text-white transition-all duration-150 ease-linear hover:scale-[0.95]"
+		>
 			Get Started
 		</button>
 	</div>
