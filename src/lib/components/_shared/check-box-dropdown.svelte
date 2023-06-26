@@ -49,16 +49,11 @@
 					isCharactersChecked = true;
 					isOpen = false;
 				}}
-				class="bg-[#C9BFFF24] rounded-md flex gap-2 justify-start
-            items-center px-4 md:px-6 py-[6px] md:py-[10px] text-[#C7C6CA]
-            focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
-            w-full
-
-            hover:bg-[#5D3FE0] hover:text-white transition-colors duration-200 ease-in-out
-            "
+				class="w-full text-left text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
+				id="listbox-option-0"
+				role="option"
 			>
-				<UserHeart class="w-6 h-6" />
-				<span>Characters</span>
+				<div class="flex flex-col text-[#C7C6CA]">Characters</div>
 			</button>
 
 			<button
@@ -66,15 +61,11 @@
 					isCharactersChecked = false;
 					isOpen = false;
 				}}
-				class="bg-[#C9BFFF24] rounded-md flex gap-2 justify-start
-        items-center px-4 md:px-6 py-[6px] md:py-[10px] text-[#C7C6CA]
-        focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
-        w-full
-        hover:bg-[#5D3FE0] hover:text-white transition-colors duration-200 ease-in-out
-        "
+				class="text-gray-900 w-full text-left cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
+				id="listbox-option-0"
+				role="option"
 			>
-				<Photo />
-				<span>Artwork</span>
+				<div class="flex flex-col text-[#C7C6CA]">Artwork</div>
 			</button>
 		</ul>
 	</div>

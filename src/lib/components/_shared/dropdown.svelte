@@ -34,7 +34,20 @@
 			aria-labelledby="listbox-label"
 			aria-activedescendant="listbox-option-0"
 		>
-			<slot />
+			<li
+				class="text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
+				id="listbox-option-0"
+				role="option"
+			>
+				<div class="flex flex-col text-[#C7C6CA]">Test item</div>
+			</li>
+			<li
+				class="text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
+				id="listbox-option-0"
+				role="option"
+			>
+				<div class="flex flex-col text-[#C7C6CA]">Test item</div>
+			</li>
 		</ul>
 	</div>
 </div>

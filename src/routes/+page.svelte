@@ -71,22 +71,7 @@
 			</div>
 
 			<div>
-				<Dropdown>
-					<li
-						class="text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
-						id="listbox-option-0"
-						role="option"
-					>
-						<div class="flex flex-col text-[#C7C6CA]">Test item</div>
-					</li>
-					<li
-						class="text-gray-900 cursor-default select-none relative p-4 text-sm hover:bg-[#C9BFFF0D] hover:cursor-pointer"
-						id="listbox-option-0"
-						role="option"
-					>
-						<div class="flex flex-col text-[#C7C6CA]">Test item</div>
-					</li>
-				</Dropdown>
+				<Dropdown />
 			</div>
 		</div>
 		<div class="flex gap-2 snap-x overflow-x-scroll container-snap">
