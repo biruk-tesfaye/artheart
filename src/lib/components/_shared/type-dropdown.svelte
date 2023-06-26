@@ -1,5 +1,4 @@
 <script>
-	import TrendingUpArrow from '$lib/assets/icons/trending-up-arrow.svg.svelte';
 	import ArrowDown from '$lib/assets/icons/arrow-down.svg.svelte';
 	import UserHeart from '$lib/assets/icons/user-heart.svg.svelte';
 	import Photo from '$lib/assets/icons/photo.svg.svelte';
@@ -8,10 +7,31 @@
 	let isCharactersChecked = false;
 </script>
 
-<!-- This example requires Tailwind CSS v2.0+ -->
 <div>
+	<div
+		class="hidden md:flex rounded-lg p-1 gap-1 justify-center items-center border border-[#44474F]"
+	>
+		<button
+			class="bg-[#C9BFFF24] rounded-md flex gap-2 justify-center
+		items-center px-4 md:px-6 py-[6px] md:py-[10px] text-[#C7C6CA]
+		focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
+		"
+		>
+			<UserHeart />
+			<span>Characters</span>
+		</button>
+		<button
+			class=" rounded-md flex gap-2 justify-center items-center
+		 px-4 md:px-6 py-[6px] md:py-[10px] text-[#C7C6CA]
+		 focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
+		 "
+		>
+			<Photo />
+			<span>Artwork</span>
+		</button>
+	</div>
 	<label id="listbox-label" class="sr-only"> Change published status </label>
-	<div class="relative">
+	<div class="relative block md:hidden">
 		<div class="inline-flex shadow-sm rounded-md divide-x divide-indigo-600">
 			<div class="relative z-0 inline-flex shadow-sm rounded-md divide-x divide-indigo-600">
 				<button

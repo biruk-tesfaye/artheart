@@ -1,12 +1,7 @@
 <script>
 	import Search from '$lib/assets/icons/search.svg.svelte';
-	import UserHeart from '$lib/assets/icons/user-heart.svg.svelte';
-	import Photo from '$lib/assets/icons/photo.svg.svelte';
-	import TrendingUpArrow from '$lib/assets/icons/trending-up-arrow.svg.svelte';
-	import ArrowDown from '$lib/assets/icons/arrow-down.svg.svelte';
 	import Label from '$lib/components/_shared/label.svelte';
 	import GeneratedImg from '$lib/components/_shared/generated-img.svelte';
-
 	import generated1 from '$lib/assets/images/generated/1.png';
 	import generated2 from '$lib/assets/images/generated/2.png';
 	import generated3 from '$lib/assets/images/generated/3.png';
@@ -14,7 +9,7 @@
 	import generated5 from '$lib/assets/images/generated/5.png';
 
 	import Dropdown from '$lib/components/_shared/dropdown.svelte';
-	import CheckBoxDropdown from '$lib/components/_shared/check-box-dropdown.svelte';
+	import TypeDropdown from '$lib/components/_shared/type-dropdown.svelte';
 </script>
 
 <svelte:head>
@@ -44,30 +39,8 @@
 	<!-- search bar filters and categories -->
 	<div class="max-w-5xl mx-auto flex flex-col gap-3">
 		<div class="flex self-stretch justify-between items-start">
-			<div class="block md:hidden">
-				<CheckBoxDropdown />
-			</div>
-			<div
-				class="hidden md:flex rounded-lg p-1 gap-1 justify-center items-center border border-[#44474F]"
-			>
-				<button
-					class="bg-[#C9BFFF24] rounded-md flex gap-2 justify-center
-					items-center px-4 md:px-6 py-[6px] md:py-[10px] text-[#C7C6CA]
-					focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
-					"
-				>
-					<UserHeart />
-					<span>Characters</span>
-				</button>
-				<button
-					class=" rounded-md flex gap-2 justify-center items-center
-					 px-4 md:px-6 py-[6px] md:py-[10px] text-[#C7C6CA]
-					 focus:ring-1 focus:ring-inset focus:ring-[#5D3FE0] focus:outline-none
-					 "
-				>
-					<Photo />
-					<span>Artwork</span>
-				</button>
+			<div>
+				<TypeDropdown />
 			</div>
 
 			<div>

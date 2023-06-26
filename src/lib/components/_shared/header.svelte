@@ -16,7 +16,6 @@
 	</div>
 	<div class="flex gap-4 items-center">
 		<a href="https://discord.com" target="_blank" class="p-1 border border-[#8E9099] rounded-md">
-			<!-- <img src={discordLogo} alt="discord" class="w-6 h-6" /> -->
 			<Discord class="w-6 h-6" />
 		</a>
 		<button
