@@ -1,24 +1,15 @@
-# create-svelte
+# ArtHeart - A SvelteKit implementation
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+- Main website [`app.artheart.ai`](https://app.artheart.ai).
+- Current Figma design [`figma.com/file/...`](https://www.figma.com/file/KVqTmgW68PNa4gDV1rKga1/Master-Design?mode=dev).
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+> Note: The current implementation is intended solely as an example to demonstrate the user interface (UI) implementation of a single page. It is important to keep in mind that the folder structure and components used in this example may not be suitable for the entire design and may need to be modified accordingly
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
 ```bash
+npm install
+
 npm run dev
 
 # or start the server and open the app in a new browser tab
@@ -34,5 +25,3 @@ npm run build
 ```
 
 You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
