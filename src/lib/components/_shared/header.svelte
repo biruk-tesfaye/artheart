@@ -1,7 +1,6 @@
 <script>
 	import logo from '$lib/assets/images/logo.png';
 	import Discord from '$lib/assets/icons/social/discord.svg.svelte';
-	import { signup } from '$lib/stores/signup';
 </script>
 
 <div
@@ -18,12 +17,12 @@
 		<a href="https://discord.com" target="_blank" class="p-1 border border-[#8E9099] rounded-md">
 			<Discord class="w-6 h-6" />
 		</a>
-		<button
-			on:click={() => signup.set(true)}
+		<a
+			href="/signup"
 			class="bg-primary rounded-md px-4 md:px-6 py-[6px] md:py-[10px] text-white transition-all duration-150 ease-linear hover:scale-[0.95]"
 		>
 			Get Started
-		</button>
+		</a>
 	</div>
 </div>
 <div class="w-full h-[1px] bg-sys-outline-variant" />
