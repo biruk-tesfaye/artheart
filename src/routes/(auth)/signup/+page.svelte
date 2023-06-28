@@ -10,22 +10,22 @@
 </script>
 
 <section class="w-full h-screen bg-sys-dark flex justify-start items-start">
-	<div class="flex w-[640px] bg-yellow-300">
+	<div class="hidden w-[640px] h-screen md:flex">
 		<img
 			src={SignupBanner}
 			alt="signup banner"
 			width="640"
 			height="1024"
-			class="max-h-screen h-full max-w-[100%] object-contain object-center"
+			class="max-h-screen h-screen max-w-[100%] object-cover object-center"
 		/>
 	</div>
 
-	<div class="flex-1 relative flex justify-center items-center h-full">
-		<button class="absolute right-12 top-12 flex h-10 w-10 items-center justify-center">
-			<Close class="w-10 h-10" />
+	<div class="w-full relative flex justify-center items-center h-full">
+		<button class="absolute right-0 md:right-12 top-12 flex h-10 w-10 items-center justify-center">
+			<Close class="w-6 h-6" />
 		</button>
 		<div
-			class="my-auto flex flex-col items-center h-full justify-between content-between gap-6 px-6 py-16 md:px-16 text-white"
+			class="my-auto -mt-3 flex flex-col items-center h-full justify-between content-between gap-6 px-6 py-16 md:px-16 text-white"
 		>
 			<div class="flex gap-2">
 				<Logo />
@@ -39,7 +39,7 @@
 					<!-- title -->
 					<div class="w-full">
 						<h1
-							class="w-full tracking-[-0.72px] leading-[44px] text-center text-4xl font-bold font-serif text-sys-on-primary"
+							class="w-full leading-8 text-2xl sm:text-3xl md:tracking-[-0.72px] md:leading-[44px] text-center md:text-4xl font-bold font-serif text-sys-on-primary"
 						>
 							Create an account to start chatting with Jane
 						</h1>
@@ -82,7 +82,7 @@
 					<!-- Other methods -->
 					<div class="w-full flex flex-col gap-6">
 						<p class="text-center text-sm text-sys-on-background">or continue with</p>
-						<div class="flex gap-4 justify-center">
+						<div class="flex gap-4 flex-wrap justify-center">
 							<button
 								class=" rounded-lg flex gap-2 justify-center items-center
 				pl-4 pr-6 py-[10px] text-sys-on-surface
