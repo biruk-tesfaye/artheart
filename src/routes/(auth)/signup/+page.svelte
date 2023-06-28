@@ -51,25 +51,17 @@
 					<div class="flex flex-col gap-6 w-full">
 						<input
 							type="text"
-							class=" px-3 py-2 w-full rounded-md border border-sys-outline-variant
-				bg-sys-surface-variant text-[#E5DEFF] placeholder-[#E5DEFF] placeholder-opacity-50
-				focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none
-				text-sm"
+							class=" px-3 py-2 w-full rounded-md border border-sys-outline-variant bg-sys-surface-variant text-[#E5DEFF] placeholder-[#E5DEFF] placeholder-opacity-50 focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none text-sm"
 							placeholder="Display Name"
 						/>
 						<input
 							type="email"
-							class=" px-3 py-2 w-full rounded-md border border-sys-outline-variant
-				bg-sys-surface-variant text-[#E5DEFF] placeholder-[#E5DEFF] placeholder-opacity-50
-				focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none text-sm"
+							class=" px-3 py-2 w-full rounded-md border border-sys-outline-variant bg-sys-surface-variant text-[#E5DEFF] placeholder-[#E5DEFF] placeholder-opacity-50 focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none text-sm"
 							placeholder="Email"
 						/>
 						<input
 							type="password"
-							class=" px-3 py-2 w-full rounded-md border border-sys-outline-variant
-				bg-sys-surface-variant text-[#E5DEFF] placeholder-[#E5DEFF] placeholder-opacity-50
-				focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none
-				text-sm"
+							class=" px-3 py-2 w-full rounded-md border border-sys-outline-variant bg-sys-surface-variant text-[#E5DEFF] placeholder-[#E5DEFF] placeholder-opacity-50 focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none text-sm"
 							placeholder="Password"
 						/>
 						<button
@@ -84,41 +76,25 @@
 						<p class="text-center text-sm text-sys-on-background">or continue with</p>
 						<div class="flex gap-4 flex-wrap justify-center">
 							<button
-								class=" rounded-lg flex gap-2 justify-center items-center
-				pl-4 pr-6 py-[10px] text-sys-on-surface
-				focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none
-				border border-sys-outline transition-all duration-150 ease-linear hover:scale-[0.98]
-				bg-[#C9BFFF0D]"
+								class=" rounded-lg flex gap-2 justify-center items-center pl-4 pr-6 py-[10px] text-sys-on-surface focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none border border-sys-outline transition-all duration-150 ease-linear hover:scale-[0.98] bg-[#C9BFFF0D]"
 							>
 								<Google class="w-5 h-5" />
 								<span class="text-sm font-medium text-sys-on-background">Google</span>
 							</button>
 							<button
-								class=" rounded-lg flex gap-2 justify-center items-center
-				pl-4 pr-6 py-[10px] text-sys-on-surface
-				focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none
-				border border-sys-outline transition-all duration-150 ease-linear hover:scale-[0.98]
-				bg-[#C9BFFF0D]"
+								class=" rounded-lg flex gap-2 justify-center items-center pl-4 pr-6 py-[10px] text-sys-on-surface focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none border border-sys-outline transition-all duration-150 ease-linear hover:scale-[0.98] bg-[#C9BFFF0D]"
 							>
 								<Discord class="w-5 h-5" />
 								<span class="text-sm font-medium text-sys-on-background">Discord</span>
 							</button>
 							<button
-								class=" rounded-lg flex gap-2 justify-center items-center
-					pl-4 pr-6 py-[10px] text-sys-on-surface
-					focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none
-					border border-sys-outline transition-all duration-150 ease-linear hover:scale-[0.98]
-					bg-[#C9BFFF0D]"
+								class=" rounded-lg flex gap-2 justify-center items-center pl-4 pr-6 py-[10px] text-sys-on-surface focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none border border-sys-outline transition-all duration-150 ease-linear hover:scale-[0.98] bg-[#C9BFFF0D]"
 							>
 								<Twitter class="w-5 h-5" />
 								<span class="text-sm font-medium text-sys-on-background">Twitter</span>
 							</button>
 							<button
-								class=" rounded-lg flex gap-2 justify-center items-center
-				pl-4 pr-6 py-[10px] text-sys-on-surface
-				focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none
-				border border-sys-outline transition-all duration-150 ease-linear hover:scale-[0.98]
-				bg-[#C9BFFF0D]"
+								class=" rounded-lg flex gap-2 justify-center items-center pl-4 pr-6 py-[10px] text-sys-on-surface focus:ring-1 focus:ring-inset focus:ring-primary focus:outline-none border border-sys-outline transition-all duration-150 ease-linear hover:scale-[0.98] bg-[#C9BFFF0D]"
 							>
 								<Facebook class="w-5 h-5" />
 								<span class="text-sm font-medium text-sys-on-background">Facebook</span>
