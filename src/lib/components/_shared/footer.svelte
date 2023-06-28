@@ -1,7 +1,7 @@
 <script>
 	import logo from '$lib/assets/images/logo.png';
 	import Twitter from '$lib/assets/icons/twitter.svg.svelte';
-	import Discord from '$lib/assets/icons/discord.svg.svelte';
+	import Discord from '$lib/assets/icons/social/discord.svg.svelte';
 </script>
 
 <div class="w-full h-[1px] bg-sys-outline-variant" />

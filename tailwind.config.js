@@ -27,6 +27,7 @@ export default {
           'surface-variant':'#23262F'
         },
         primary:'#5D3FE0',
+        tertiary:'#70DC90',
         'primary-container':'#441CC8'
       }
     }

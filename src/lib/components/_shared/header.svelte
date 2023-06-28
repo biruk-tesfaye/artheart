@@ -1,7 +1,7 @@
 <script>
-	import discordLogo from '$lib/assets/images/discord.png';
 	import logo from '$lib/assets/images/logo.png';
-	import Discord from '$lib/assets/icons/discord.svg.svelte';
+	import Discord from '$lib/assets/icons/social/discord.svg.svelte';
+	import { signup } from '$lib/stores/signup';
 </script>
 
 <div
@@ -19,6 +19,7 @@
 			<Discord class="w-6 h-6" />
 		</a>
 		<button
+			on:click={() => signup.set(true)}
 			class="bg-primary rounded-md px-4 md:px-6 py-[6px] md:py-[10px] text-white transition-all duration-150 ease-linear hover:scale-[0.95]"
 		>
 			Get Started
