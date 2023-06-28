@@ -12,6 +12,7 @@ export default {
         'surfaces': {
           default:'##1B1B1F',
           1:'#C9BFFF0D',
+          3:'##C9BFFF1C',
           5: '#C9BFFF24'
         },
         sys:{

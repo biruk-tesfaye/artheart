@@ -10,11 +10,17 @@
 
 	import Dropdown from '$lib/components/_shared/dropdown.svelte';
 	import TypeDropdown from '$lib/components/_shared/type-dropdown.svelte';
+
+	import DownloadApp from '$lib/components/download-app/download-app.svelte';
 </script>
 
 <svelte:head>
 	<title>ArtHeart | Ai Generator</title>
 </svelte:head>
+
+<!-- Show DownloadApp component after some scroll for mobile devices -->
+<DownloadApp />
+
 <div class="px-4">
 	<!-- search bar and text -->
 	<div class="pt-8 pb-3 max-w-5xl mx-auto flex flex-col gap-4">
