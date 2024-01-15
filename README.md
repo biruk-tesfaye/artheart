@@ -1,5 +1,7 @@
 # ArtHeart - A SvelteKit implementation
 
+This project is a demonstration of a SvelteKit implementation based on a Figma design. Originally created for a client project, it has now been made public as a showcase of my development skills and to benefit the wider community.
+
 - Main website [`app.artheart.ai`](https://app.artheart.ai).
 - Current Figma design [`figma.com/file/...`](https://www.figma.com/file/KVqTmgW68PNa4gDV1rKga1/Master-Design?mode=dev).
 
